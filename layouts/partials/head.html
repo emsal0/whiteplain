@@ -3,6 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   {{- if .IsHome }}
   <title>{{ .Site.Title }}</title>
+  <meta name="theme-color" content="#ffffff">
   <meta property="og:title" content="{{ .Site.Title }}" />
   <meta name="twitter:title" content="{{ .Site.Title | truncate 70 }}" />
   {{- else }}
